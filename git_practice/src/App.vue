@@ -1,16 +1,16 @@
 <template>
-
   <GitPageVue/>
+  <HomePageOfGitVue/>
 </template>
 <script>
-import GitPageVue from './components/GitPage.vue'
-
+import GitPageVue from './components/GitPage.vue';
+import HomePageOfGitVue from './components/HomePageOfGit.vue';
 
 export default {
   name: 'App',
-  components: {
-    
-    GitPageVue
+  components: {   
+    GitPageVue,
+    HomePageOfGitVue
   }
 }
 </script>
